@@ -1,10 +1,6 @@
-/* @import "tailwindcss/base";
-
-@import "tailwindcss/components";
-
-@import "tailwindcss/utilities"; */
-
-/* ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com */
+/*
+! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
+*/
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -535,22 +531,9 @@ video {
   text-align: left;
 }
 
-.text-right {
-  text-align: right;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .font-extrabold {
