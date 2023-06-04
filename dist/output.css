@@ -544,13 +544,43 @@ video {
   justify-content: center;
 }
 
+.rounded-b-2xl{
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.rounded-b-3xl{
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.rounded-b-full{
+  border-bottom-right-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+}
+
 .bg-page-back{
   --tw-bg-opacity: 1;
   background-color: rgb(236 242 255 / var(--tw-bg-opacity));
 }
 
+<<<<<<< Updated upstream
+=======
 .bg-totalgrad{
   background-color:  linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+}
+
+.bg-red{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 87 87 / var(--tw-bg-opacity));
+}
+
+.bg-gradient-to-r{
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-b{
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
 .py-4{
@@ -558,6 +588,7 @@ video {
   padding-bottom: 1rem;
 }
 
+>>>>>>> Stashed changes
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
