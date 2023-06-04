@@ -544,10 +544,6 @@ video {
   width: 9rem;
 }
 
-.w-64{
-  width: 16rem;
-}
-
 .max-w-sm{
   max-width: 24rem;
 }
@@ -599,46 +595,26 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.via-backgrad2{
-  --tw-gradient-to: hsl(241 81% 54% / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), hsl(241, 81%, 54%) var(--tw-gradient-via-position), var(--tw-gradient-to);
+.to-backgrad2{
+  --tw-gradient-to: hsl(241, 81%, 54%) var(--tw-gradient-to-position);
 }
 
 .to-circlegrad2{
   --tw-gradient-to: hsla(241, 72%, 46%, 0) var(--tw-gradient-to-position);
 }
 
-.to-backgrad2{
-  --tw-gradient-to: hsl(241, 81%, 54%) var(--tw-gradient-to-position);
-}
-
 .p-10{
   padding: 2.5rem;
-}
-
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.py-8{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .px-12{
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .text-center{
