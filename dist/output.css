@@ -526,9 +526,13 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-green-400 {
+.bg-orange-400 {
   --tw-bg-opacity: 1;
-  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-right {
@@ -540,8 +544,17 @@ video {
   line-height: 2.25rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .underline {
