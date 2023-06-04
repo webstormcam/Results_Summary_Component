@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
 /*
 ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
 */
@@ -16,7 +18,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -422,7 +424,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -472,7 +474,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -522,24 +524,160 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-orange-400 {
+.mt-4{
+  margin-top: 1rem;
+}
+
+.mt-6{
+  margin-top: 1.5rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-36{
+  height: 9rem;
+}
+
+.w-36{
+  width: 9rem;
+}
+
+.w-64{
+  width: 16rem;
+}
+
+.max-w-sm{
+  max-width: 24rem;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.rounded-full{
+  border-radius: 9999px;
+}
+
+.rounded-b-3xl{
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.bg-page-back{
   --tw-bg-opacity: 1;
-  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
+  background-color: rgb(236 242 255 / var(--tw-bg-opacity));
 }
 
-.text-left {
-  text-align: left;
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.bg-gradient-to-b{
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
-.font-extrabold {
+.from-backgrad1{
+  --tw-gradient-from: hsl(252, 100%, 67%) var(--tw-gradient-from-position);
+  --tw-gradient-to: hsl(252 100% 67% / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-circlegrad1{
+  --tw-gradient-from: hsla(256, 72%, 46%, 1) var(--tw-gradient-from-position);
+  --tw-gradient-to: hsla(256, 72%, 46%, 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.via-backgrad2{
+  --tw-gradient-to: hsl(241 81% 54% / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), hsl(241, 81%, 54%) var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.to-circlegrad2{
+  --tw-gradient-to: hsla(241, 72%, 46%, 0) var(--tw-gradient-to-position);
+}
+
+.to-backgrad2{
+  --tw-gradient-to: hsl(241, 81%, 54%) var(--tw-gradient-to-position);
+}
+
+.p-10{
+  padding: 2.5rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-12{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.font-HankenGrotesk{
+  font-family: Hanken Grotesk, sans-serif;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.font-extrabold{
   font-weight: 800;
 }
 
-.underline {
-  text-decoration-line: underline;
+.text-lightBlue{
+  --tw-text-opacity: 1;
+  color: rgb(202 201 255 / var(--tw-text-opacity));
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
