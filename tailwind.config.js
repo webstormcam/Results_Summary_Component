@@ -6,14 +6,15 @@ module.exports = {
     colors:{
     'page-back':'#ecf2ff',
     'white':'#ffffff',
+    'lightBlue':'#CAC9FF',
     'red':'#ff5757',
     'orangey':'#ffb01f',
     'green':'	#00bd91',
     'cobalt':'#1125d4',
-    'backgrad1':'hsla(252, 100%, 67%, 1)',
-    'backgrad2':'hsla(252, 100%, 63%, 1)',
-    'backgrad3':'hsla(241, 81%, 54%, 1)',
-    'totalgrad':' linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%)'
+    'backgrad1':'hsl(252, 100%, 67%)',
+    'backgrad2':'hsl(241, 81%, 54%)',
+    'circlegrad1':'hsla(256, 72%, 46%, 1)',
+    'circlegrad2':'hsla(241, 72%, 46%, 0)',
 
     },
     extend: {
