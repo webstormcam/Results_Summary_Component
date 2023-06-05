@@ -15,6 +15,7 @@ module.exports = {
     'backgrad2':'hsl(241, 81%, 54%)',
     'circlegrad1':'hsla(256, 72%, 46%, 1)',
     'circlegrad2':'hsla(241, 72%, 46%, 0)',
+    'redHue':'',
 
     },
     extend: {
