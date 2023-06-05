@@ -28,6 +28,9 @@ module.exports = {
       fontFamily:{
         HankenGrotesk:['Hanken Grotesk','sans-serif']
       },
+      maxWidth:{
+        '420':'420px'
+      }
     },
   },
   plugins: [],
