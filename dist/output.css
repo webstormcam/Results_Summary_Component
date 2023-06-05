@@ -783,3 +783,17 @@ video {
 .hover\:duration-1000:hover{
   transition-duration: 1000ms;
 }
+
+@media (min-width: 768px){
+  .md\:flex{
+    display: flex;
+  }
+
+  .md\:h-screen{
+    height: 100vh;
+  }
+
+  .md\:items-center{
+    align-items: center;
+  }
+}
