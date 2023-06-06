@@ -29,7 +29,8 @@ module.exports = {
         HankenGrotesk:['Hanken Grotesk','sans-serif']
       },
       maxWidth:{
-        '420':'420px'
+        '420':'420px',
+        '736':'736px',
       }
     },
   },

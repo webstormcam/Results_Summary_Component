@@ -552,10 +552,6 @@ video {
   width: 100%;
 }
 
-.max-w-sm{
-  max-width: 24rem;
-}
-
 .max-w-420{
   max-width: 420px;
 }
@@ -666,10 +662,6 @@ video {
   padding-bottom: 1rem;
 }
 
-.pb-2{
-  padding-bottom: 0.5rem;
-}
-
 .pb-4{
   padding-bottom: 1rem;
 }
@@ -739,52 +731,15 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.transition{
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.duration-0{
-  transition-duration: 0s;
-}
-
-.duration-1000{
-  transition-duration: 1000ms;
-}
-
-.hover\:bg-backgrad1:hover{
-  --tw-bg-opacity: 1;
-  background-color: hsl(252 100% 67% / var(--tw-bg-opacity));
-}
-
 .hover\:bg-gradient-to-b:hover{
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
-.hover\:bg-gradient-to-r:hover{
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.hover\:transition:hover{
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.hover\:duration-150:hover{
-  transition-duration: 150ms;
-}
-
-.hover\:duration-1000:hover{
-  transition-duration: 1000ms;
-}
-
 @media (min-width: 768px){
+  .md\:mt-0{
+    margin-top: 0px;
+  }
+
   .md\:flex{
     display: flex;
   }
@@ -793,7 +748,103 @@ video {
     height: 100vh;
   }
 
+  .md\:h-52{
+    height: 13rem;
+  }
+
+  .md\:w-1\/2{
+    width: 50%;
+  }
+
+  .md\:w-full{
+    width: 100%;
+  }
+
+  .md\:w-52{
+    width: 13rem;
+  }
+
+  .md\:max-w-736{
+    max-width: 736px;
+  }
+
   .md\:items-center{
     align-items: center;
+  }
+
+  .md\:rounded-full{
+    border-radius: 9999px;
+  }
+
+  .md\:rounded-3xl{
+    border-radius: 1.5rem;
+  }
+
+  .md\:rounded-bl-3xl{
+    border-bottom-left-radius: 1.5rem;
+  }
+
+  .md\:rounded-tl-3xl{
+    border-top-left-radius: 1.5rem;
+  }
+
+  .md\:rounded-br-3xl{
+    border-bottom-right-radius: 1.5rem;
+  }
+
+  .md\:rounded-tr-3xl{
+    border-top-right-radius: 1.5rem;
+  }
+
+  .md\:bg-white{
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+
+  .md\:p-8{
+    padding: 2rem;
+  }
+
+  .md\:p-4{
+    padding: 1rem;
+  }
+
+  .md\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .md\:px-12{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .md\:py-12{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .md\:pb-0{
+    padding-bottom: 0px;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-7xl{
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
